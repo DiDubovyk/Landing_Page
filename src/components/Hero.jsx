@@ -1,6 +1,7 @@
 import { HERO_CONTENT } from "../constants";
 import profile from "../assets/profile.png";
 import { motion } from "framer-motion";
+import resume from "../assets/files/Diana_Dubovyk_CV.pdf"
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -37,7 +38,17 @@ const Hero = () => {
             >
               {HERO_CONTENT}
             </motion.p>
-            <motion.button className="bg-[#6A5975]">Download CV</motion.button>
+            <a href={resume} download="Diana Dubovyk CV">
+              <motion.button
+                variants={container(1.5)}
+                initial="hidden"
+                animate="visible"
+                whileTap={{ scale: 0.95 }} // Motion's way to handle active-like states
+                className="transform active:scale-50 text-white bg-gradient-to-br from-[#6A5975] to-black font-medium rounded-lg text-xl px-5 py-2.5 text-center me-2 mb-2 transition-transform duration-150"
+              >
+                Download CV
+              </motion.button>
+            </a>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-1 lg:-mt-32">
@@ -46,7 +57,7 @@ const Hero = () => {
               <motion.img
                 initial={{ x: 100, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
-                transition={{duration:1, delay:1.3}}
+                transition={{ duration: 1, delay: 1.3 }}
                 src={profile}
                 alt="profile photo"
                 className="h-auto object-contain"
