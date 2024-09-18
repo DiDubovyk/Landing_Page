@@ -1,7 +1,7 @@
 import project1 from "../assets/ShoeShop.png";
-export const HERO_CONTENT = "HERO CONTENT";
+export const HERO_CONTENT = "A passionate Front-End Developer crafting modern, responsive websites and user-friendly web applications. Let's build something amazing together.";
 
-export const ABOUT_TEXT = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+export const ABOUT_TEXT = "I'm a Front-End Developer from Ukraine, dedicated to creating clean, efficient, and user-centric web experiences. I believe in continuous self-improvement and honing my skills through practice. With a passion for coding and a commitment to staying at the forefront of web technologies, I strive to deliver seamless, responsive designs that bring ideas to life.";
 
 export const COURSES = [
   {

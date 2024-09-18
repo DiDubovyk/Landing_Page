@@ -17,7 +17,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+              className="pb-16 text-6xl font-light tracking-tight lg:mt-16 lg:text-8xl"
             >
               Diana Dubovyk
             </motion.h1>
@@ -33,10 +33,11 @@ const Hero = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tighter"
+              className="my-2 max-w-xl text-2xl py-6 font-light tracking-tighter"
             >
               {HERO_CONTENT}
             </motion.p>
+            <motion.button className="bg-[#6A5975]">Download CV</motion.button>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-1 lg:-mt-32">
