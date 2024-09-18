@@ -38,13 +38,13 @@ const Hero = () => {
             >
               {HERO_CONTENT}
             </motion.p>
-            <a href={resume} download="Diana Dubovyk CV">
+            <a href={resume} download="Diana_Dubovyk_CV">
               <motion.button
-                variants={container(1.5)}
+                variants={container(1)}
                 initial="hidden"
                 animate="visible"
-                whileTap={{ scale: 0.95 }} // Motion's way to handle active-like states
-                className="transform active:scale-50 text-white bg-gradient-to-br from-[#6A5975] to-black font-medium rounded-lg text-xl px-5 py-2.5 text-center me-2 mb-2 transition-transform duration-150"
+                whileTap={{ scale: 0.75 }}
+                className=" text-white bg-gradient-to-br from-[#6A5975] to-black font-medium rounded-lg text-xl px-5 py-2.5 text-center me-2 mb-2"
               >
                 Download CV
               </motion.button>
