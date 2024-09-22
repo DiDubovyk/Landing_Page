@@ -1,4 +1,4 @@
-import { HERO_CONTENT } from "../constants";
+import { CONTENT, HERO_CONTENT } from "../constants";
 import profile from "../assets/profile.png";
 import { motion } from "framer-motion";
 import resume from "../assets/files/Diana_Dubovyk_CV.pdf"
@@ -37,7 +37,16 @@ const Hero = () => {
               className="my-2 max-w-xl text-2xl py-6 font-light tracking-tighter"
             >
               {HERO_CONTENT}
+              <motion.p
+                variants={container(0.5)}
+                initial="hidden"
+                animate="visible"
+                className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl tracking-tight text-transparent pb-4"
+              >
+                {CONTENT}
+              </motion.p>
             </motion.p>
+
             <a href={resume} download="Diana_Dubovyk_CV">
               <motion.button
                 variants={container(1)}
