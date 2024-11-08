@@ -4,7 +4,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import logo from "../assets/Logo2.png";
 const Navbar = () => {
   return (
-    <nav className="mb-5 relative z-10 flex items-center justify-between py-6">
+    <nav className="relative z-10 flex items-center justify-between pt-6">
       <div className="flex flex-shrink-0 items-center">
         <img className="mx-2 w-[10rem]" src={logo} alt="logo" />
       </div>

@@ -60,16 +60,16 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-1 lg:-mt-32">
-          <div className="flex justify-center">
-            <div className="bg-[#6A5975] rounded-full flex items-center justify-center">
+        <div className="w-full lg:w-1/2 lg:p-1">
+          <div className="flex">
+            <div className="bg-[#6A5975]  rounded-full h-full">
               <motion.img
                 initial={{ x: 100, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1, delay: 1.3 }}
                 src={profile}
                 alt="profile photo"
-                className="h-auto object-contain"
+                className="object-contain scale-125"
               />
             </div>
           </div>
