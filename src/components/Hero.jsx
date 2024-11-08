@@ -62,7 +62,7 @@ const Hero = () => {
         </div>
         <div className="w-full lg:w-1/2 lg:p-1">
           <div className="flex">
-            <div className="bg-[#6A5975]  rounded-full h-full">
+            <div className="bg-[#6A5975] rounded-full h-full">
               <motion.img
                 initial={{ x: 100, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
