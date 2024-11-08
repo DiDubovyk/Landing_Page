@@ -49,7 +49,6 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Spain",
-  phoneNo: "+44 744 220 3778 ",
+  phoneNo: "+34 722 141 869 ",
   email: "diana.dubovik33@gmail.com",
 };
